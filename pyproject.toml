@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rutafeol-aiefficiency_jd383"
+name = "rutafeol-kv_cache_reuse_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别AI 工程效率工具工程师·KV Cache 复用与前缀共享上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://rutafeol.github.io"
-Repository = "https://github.com/rutafeol/aiefficiency_jd383"
-Issues = "https://github.com/rutafeol/aiefficiency_jd383/issues"
+Repository = "https://github.com/rutafeol/kv_cache_reuse_distribution_profile"
+Issues = "https://github.com/rutafeol/kv_cache_reuse_distribution_profile/issues"
 
 [project.scripts]
-aiefficiency_jd383 = "aiefficiency_jd383:main"
+kv_cache_reuse_distribution_profile = "kv_cache_reuse_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["aiefficiency_jd383"]
+py-modules = ["kv_cache_reuse_distribution_profile"]
